@@ -1,0 +1,26 @@
+# Python Codes for Numerical ODE/PDE and Multidimensional Integration
+
+This folder contains Python implementations for various numerical methods and demonstrations:
+
+## Scripts
+
+- **euler_logistic_adaptive.py**  
+  Solves the logistic growth initial value problem using explicit Euler method with adaptive step size. Plots both the solution and the time-varying step size.
+
+- **rk4_linear_system.py**  
+  Solves a linear system of ODEs using the classical fourth-order Runge-Kutta (RK4) method.
+
+- **implicit_midpoint_vs_euler.py**  
+  Solves a stiff linear ODE system using both the implicit midpoint method and explicit Euler, and compares both to the exact solution.
+
+- **mc_integral_multidim.py**  
+  Estimates the integral of a high-dimensional function over the unit cube using Monte Carlo integration, and compares with the exact value for increasing dimensions.
+
+## Requirements
+
+- numpy
+- matplotlib
+
+Install with:
+```bash
+pip install numpy matplotlib
